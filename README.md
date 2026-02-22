@@ -1,4 +1,4 @@
-# Lab 07: Code Churn i Truck Factor — kto jest niezastąpiony?
+# Lab 07: Code Churn i Truck Factor - kto jest niezastąpiony?
 
 ## Czy wiesz, że...
 
@@ -6,9 +6,9 @@ Według badań (które właśnie wymyśliłem), truck factor projektu Linux kern
 
 ## Kontekst
 
-Na poprzednich labach mierzyliśmy kod — linie, złożoność, klasy. To metryki *produktowe* — opisują artefakt (kod). Dziś przechodzimy do metryk *procesowych* — opisują *jak* kod powstaje i kto za nim stoi.
+Na poprzednich labach mierzyliśmy kod - linie, złożoność, klasy. To metryki *produktowe* - opisują artefakt (kod). Dziś przechodzimy do metryk *procesowych* - opisują *jak* kod powstaje i kto za nim stoi.
 
-Code churn mówi nam, które pliki są "gorące" — często zmieniane, z dużą rotacją linii. Wysoki churn to sygnał ryzyka: plik, który zmienia się co tydzień, prawdopodobnie jest problematyczny (bugi, niejasne wymagania, złe API).
+Code churn mówi nam, które pliki są "gorące" - często zmieniane, z dużą rotacją linii. Wysoki churn to sygnał ryzyka: plik, który zmienia się co tydzień, prawdopodobnie jest problematyczny (bugi, niejasne wymagania, złe API).
 
 Truck factor (znany też jako bus factor) odpowiada na pytanie: ilu developerów musi "wpaść pod ciężarówkę" (czytaj: odejść z projektu), żeby nikt nie wiedział jak działa krytyczna część kodu? Truck factor = 1 to duże ryzyko.
 
@@ -31,7 +31,7 @@ Po tym laboratorium będziesz potrafić:
 
 ### Zadanie 1: git log --numstat (30 min)
 
-`git log --numstat` to kopalnia danych — dla każdego commitu pokazuje ile linii dodano i usunięto w każdym pliku.
+`git log --numstat` to kopalnia danych - dla każdego commitu pokazuje ile linii dodano i usunięto w każdym pliku.
 
 **Krok 1:** Sklonuj projekt (jeśli nie masz):
 
@@ -164,7 +164,7 @@ def compute_file_metrics(commits: list[dict]) -> dict[str, dict]:
 
 
 def compute_truck_factor(file_metrics: dict[str, dict]) -> tuple[int, list[str]]:
-    """Compute truck factor — minimum developers covering >50% of files.
+    """Compute truck factor - minimum developers covering >50% of files.
 
     Algorithm:
     1. For each file, determine the owner (most commits)
@@ -266,7 +266,7 @@ Plik                                          Churn  Zmian  Autorów Owner      
     Nate Prewitt (owner 42 plików)
 ```
 
-### Zadanie 3: Heatmapa ownership (45 min) — dla ambitnych
+### Zadanie 3: Heatmapa ownership (45 min) - dla ambitnych
 
 Wizualizacja macierzy developer x katalog, gdzie intensywność kolorów oznacza procent ownership.
 
@@ -312,9 +312,9 @@ plt.savefig("ownership_heatmap.png", dpi=150)
 
 W swoim branchu `lab07_nazwisko1_nazwisko2`:
 
-1. **`process_metrics.py`** — działający skrypt z zadania 2
-2. **`answers.md`** — odpowiedzi na pytania z zadania 1 + wnioski o truck factor
-3. *(opcjonalnie)* **`ownership_heatmap.png`** — heatmapa z zadania 3
+1. **`process_metrics.py`** - działający skrypt z zadania 2
+2. **`answers.md`** - odpowiedzi na pytania z zadania 1 + wnioski o truck factor
+3. *(opcjonalnie)* **`ownership_heatmap.png`** - heatmapa z zadania 3
 
 ## Kryteria oceny
 
@@ -331,7 +331,7 @@ W swoim branchu `lab07_nazwisko1_nazwisko2`:
 O: To pliki binarne (obrazki, PDFy). Traktuj je jako 0 adds / 0 deletes, ale wciąż licz jako zmianę (zmiana pliku binarnego to też churn).
 
 **P: Truck factor wychodzi mi 1 dla prawie każdego projektu.**
-O: To normalne dla wielu projektów OSS — jeden maintainer dominuje. Dlatego truck factor = 1 to sygnał ryzyka, nie błąd w obliczeniach.
+O: To normalne dla wielu projektów OSS - jeden maintainer dominuje. Dlatego truck factor = 1 to sygnał ryzyka, nie błąd w obliczeniach.
 
 **P: Jak obsłużyć pliki, które zostały przeniesione/zmieniono im nazwę?**
 O: Na potrzeby tego laba traktuj starą i nową ścieżkę jako dwa oddzielne pliki. Pełna obsługa wymaga `git log --follow`, ale to komplikuje analizę całego projektu naraz.
@@ -351,4 +351,4 @@ O: Konwencja: churn = adds + deletes. Niektóre definicje mówią, że churn to 
 - [seaborn heatmap documentation](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 
 ---
-*"Jedyny niezastąpiony człowiek na cmentarzu to ten, którego tam nie ma."* — Charles de Gaulle (wersja open-source)
+*"Jedyny niezastąpiony człowiek na cmentarzu to ten, którego tam nie ma."* - Charles de Gaulle (wersja open-source)
