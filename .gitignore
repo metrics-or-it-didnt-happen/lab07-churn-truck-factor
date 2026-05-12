@@ -16,3 +16,5 @@ venv/
 .DS_Store
 Thumbs.db
 prezentacja.pdf
+# lokalny klon do ćwiczeń z README
+requests/
