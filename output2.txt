@@ -1,0 +1,10 @@
+    227 
+    125 Nate Prewitt
+     46 dependabot[bot]
+     43 Ian Stapleton Cordasco
+     37 .github/workflows/run-tests.yml
+     25 .github/workflows/codeql-analysis.yml
+     23 tests/test_requests.py
+     18 src/requests/utils.py
+     18 .github/workflows/lint.yml
+     17 src/requests/adapters.py

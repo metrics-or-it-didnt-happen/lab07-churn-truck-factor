@@ -1,0 +1,50 @@
+0b401c76b6e80a4eecf3c690085b2553f6e261ca|Nate Prewitt|2026-05-11
+
+21	6	HISTORY.md
+1	1	src/requests/__version__.py
+86b378d3f60f828daa13ca50aa82e287ff7b66b4|Nate Prewitt|2026-05-11
+
+9	2	src/requests/sessions.py
+a4f9a5999bdb9bf2d6e7c8aa973b28cacb17134f|Nate Prewitt|2026-05-11
+
+4	2	src/requests/utils.py
+23	0	tests/test_utils.py
+3816cfa1abd42dca21b9e837f26c59b246016aaf|Nate Prewitt|2026-05-11
+
+6	4	src/requests/_types.py
+3	3	src/requests/utils.py
+b684dcb9bbf3aa557d1238e72062c4a29737dd1c|Sebastian Meyer|2026-05-11
+
+1	1	src/requests/_types.py
+1	1	src/requests/sessions.py
+dc9dbdfb3434c6e58d48fd102f93e5342308817e|Nate Prewitt|2026-05-10
+
+0	1	.github/workflows/run-tests.yml
+1	0	pyproject.toml
+25340ebad09a38e0748aeb26232102022a03ec94|Nate Prewitt|2026-05-10
+
+9	0	tests/conftest.py
+fd628095d7b9ddbf3e987d8a4bf0e6062768916f|typhon8|2026-05-10
+
+0	2	src/requests/adapters.py
+2	2	tests/test_adapters.py
+e8d2c015eecda8273612dd4562425e00cd164ba5|eggsort|2026-05-09
+
+1	0	docs/user/advanced.rst
+eb173bc819c72580deed2d54190d340cc769e529|Nate Prewitt|2026-05-08
+
+1	1	.github/workflows/run-tests.yml
+1	0	pyproject.toml
+d60f4773b1f5932e2715b2c64b333649edbb405b|Nate Prewitt|2026-05-07
+
+1	1	docs/Makefile
+2	2	docs/community/faq.rst
+1	1	docs/community/out-there.rst
+2	2	docs/dev/contributing.rst
+1	1	docs/make.bat
+f64a0d782b2a9310340aba929f44bb887d2f27e0|Joshua Kothapalle|2026-05-07
+
+1	1	docs/dev/contributing.rst
+04d750509b90da728e53aee8d7516426e5a1a293|dependabot[bot]|2026-05-04
+
+1	1	.pre-commit-config.yaml

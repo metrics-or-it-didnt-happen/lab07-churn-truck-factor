@@ -1,0 +1,20 @@
+   6458 
+    717 requests/models.py
+    366 test_requests.py
+    335 requests/sessions.py
+    319 HISTORY.rst
+    271 requests/utils.py
+    251 tests/test_requests.py
+    225 docs/user/advanced.rst
+    187 docs/index.rst
+    179 requests/__init__.py
+    173 README.md
+    173 docs/user/quickstart.rst
+    172 setup.py
+    169 AUTHORS.rst
+    153 README.rst
+    152 requests/adapters.py
+    141 requests/api.py
+    132 requests/core.py
+    128 Makefile
+    119 docs/_templates/sidebarintro.html
