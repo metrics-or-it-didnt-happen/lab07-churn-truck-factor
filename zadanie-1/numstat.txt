@@ -1,0 +1,50 @@
+ef439eb779c1eba7cbdeeeb302b11e1e061b4b7d|Nate Prewitt|2026-04-05
+
+1	2	src/requests/sessions.py
+8	0	tests/test_requests.py
+cbce031327be4f1b4b5fd041ff4dcaa8efa2ce53|Nate Prewitt|2026-03-31
+
+2	0	.github/dependabot.yml
+5	2	.github/workflows/close-issues.yml
+1	0	.github/workflows/codeql-analysis.yml
+2	0	.github/workflows/lint.yml
+6	0	.github/workflows/run-tests.yml
+24	0	.github/workflows/zizmor.yml
+6360477c52303c9445b45fa8744b02d05a2f0905|dependabot[bot]|2026-03-30
+
+3	3	.github/workflows/codeql-analysis.yml
+111d2b77790bf49943c0dfa09b365371c24aec7e|Nate Prewitt|2026-03-30
+
+10	1	HISTORY.md
+2	2	src/requests/__version__.py
+f0198e6dfc431a2293dc16e1b1e8fcddc910a7f3|Nate Prewitt|2026-03-30
+
+6	9	src/requests/utils.py
+4	4	tests/test_utils.py
+bc7dd0fc4d56e808bcdd85ac2d797b3107c89259|Nate Prewitt|2026-03-30
+
+4	4	src/requests/_internal_utils.py
+5	0	tests/test_requests.py
+4443b1a847b190010c2972a658924b98b5db6360|Nate Prewitt|2026-03-30
+
+5	1	pyproject.toml
+389eea58dfb2f2ee096421a812e3af29c0298951|Nate Prewitt|2026-03-30
+
+6	3	tests/test_utils.py
+7407309c8a8a73aa2f4337184025d440bbedab7a|Frank Dana|2026-03-30
+
+1	1	pyproject.toml
+bc04dfd6dad4cb02cd92f5daa81eb562d280a761|Nate Prewitt|2026-03-25
+
+29	0	HISTORY.md
+1	1	src/requests/__version__.py
+66d21cb07bd6255b1280291c4fafb71803cdb3b7|Nate Prewitt|2026-03-25
+
+7	6	src/requests/utils.py
+8b9bc8fc0f63be84602387913c4b689f19efd028|Nate Prewitt|2026-03-24
+
+5	4	README.md
+e331a288f369973f5de0ec8901c94cae4fa87286|Nate Prewitt|2026-03-24
+
+1	2	src/requests/adapters.py
+1	0	src/requests/utils.py
