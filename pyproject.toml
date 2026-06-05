@@ -1,0 +1,10 @@
+[project]
+name = "churn-truck-factor"
+version = "0.1.0"
+description = "Code Churn & Truck Factor - process metrics from git history"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5",
+    "vl-convert-python>=1",
+    "pandas>=2",
+]
